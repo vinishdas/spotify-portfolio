@@ -32,8 +32,8 @@ const projectDetails = {
     duration: "2 weeks",
     status: "Completed",
     gradient: "gradient-green-blue",
-    liveUrl: "https://portfolio.example.com",
-    githubUrl: "https://github.com/example/portfolio",
+    liveUrl: "spotify-portfolio-q1x2g9rzb-vinishdas-projects.vercel.app",
+    githubUrl: "https://github.com/vinishdas/spotify-portfolio.git",
    documentation: {
     overview: "A responsive and modern portfolio website designed to showcase professional projects and technical skills. Built with performance and user experience in mind, featuring smooth animations and an intuitive interface.",
     keyFeatures: [
