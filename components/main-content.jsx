@@ -35,7 +35,7 @@ export function MainContent({ onProjectSelect, isMobileOpen, setIsMobileOpen, on
         {/* Profile Section */}
         
         <div className="flex items-center space-x-2 sm:space-x-3">
-          <span className="text-xl font-bold hidden sm:block" style={{ color: "#ffffff" }}>
+          <span className="text-lg sm:text-xl font-bold  sm:block" style={{ color: "#ffffff" }}>
             vinish Das
           </span>
            
