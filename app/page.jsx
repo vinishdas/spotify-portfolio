@@ -92,7 +92,7 @@ export default function Home() {
           onProfileClick={handleProfileClick}
         />
       </div>
-      <MusicPlayer />
+      <MusicPlayer className="fixed bottom-0 left-0 right-0 z-50"  />
       
     </div>
   )
