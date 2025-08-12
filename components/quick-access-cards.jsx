@@ -40,7 +40,7 @@ export function QuickAccessCards({ onProjectSelect }) {
           <Button
             key={item.id}
             variant="ghost"
-            className="h-14  sm:h-16   md:h-20 p-3  rounded-lg spotify-card-hover group ripple "
+            className="h-14  sm:h-16   md:h-20 p-3  rounded-[4px] sm:rounded-lg  spotify-card-hover group ripple "
             style={{ backgroundColor: "rgba(178, 178, 178, 0.1)" }}
             onClick={() => onProjectSelect(item.id)}
           >
@@ -51,7 +51,7 @@ export function QuickAccessCards({ onProjectSelect }) {
                 <IconComponent className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 text-white" />
               </div>
               <div className="flex-1 px-3 sm:px-4 text-left min-w-0">
-                <span className="font-medium text-sm xs:text-[12px] sm:text-base truncate block" style={{ color: "#ffffff" }}>
+                <span className="font-medium text-[12px] xs:text-sm sm:text-base  block " style={{ color: "#ffffff" }}>
                   {item.title}
                 </span>
               </div>
