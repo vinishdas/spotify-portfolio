@@ -86,6 +86,7 @@ export default function Home() {
       <div className="flex flex-1 overflow-hidden">
         <Sidebar isMobileOpen={isMobileOpen} setIsMobileOpen={setIsMobileOpen} onProfileClick={handleProfileClick} />
         <MainContent
+          className = "pb-20"
           onProjectSelect={handleProjectSelect}
           isMobileOpen={isMobileOpen}
           setIsMobileOpen={setIsMobileOpen}
