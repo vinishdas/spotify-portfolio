@@ -228,56 +228,60 @@ const projectDetails = {
 "queryiq": {
   topic: "project",
   title: "QueryIQ",
-  description: "An advanced platform for managing, optimizing, and executing database queries with multi-database support and collaborative features",
-  type: "Backend API Platform",
-  technologies: ["Node.js", "Express.js", "MySQL", "PostgreSQL", "MSSQL", "JWT", "REST API", "SQL"],
+  description: "An AI-powered conversational platform for querying databases through natural language with multi-database support and file upload capabilities",
+  type: "Full-Stack AI Platform",
+  technologies: ["FastAPI", "Python", "React", "Bits UI", "MySQL", "PostgreSQL", "MSSQL", "JWT", "LLM", "NL2SQL", "RAG", "Vector Stores"],
   duration: "2025",
   status: "Completed",
   gradient: "gradient-blue-purple",
   liveUrl: "https://query-iq-seven.vercel.app/",
   githubUrl: "https://github.com/NishantMoolya/QueryIQ",
   documentation: {
-    overview: "QueryIQ is an advanced platform for managing, optimizing, and executing database queries. It provides a flexible API for building, saving, sharing, and running complex SQL queries with support for multiple database backends. Designed for developers, data analysts, and organizations who need a centralized solution for query lifecycle management, analytics, and collaboration.",
+    overview: "QueryIQ is an AI-powered platform that enables users to interact with databases using natural language through a chatbot interface. It converts conversational queries into SQL using NL2SQL technology, supports multiple database connections (hosted databases or file uploads), and provides intelligent query execution with context-aware responses. Designed for non-technical users and analysts who need an intuitive way to extract insights from structured and unstructured data.",
     keyFeatures: [
-      "Multi-Database Support: Connect to various popular databases (MySQL, PostgreSQL, MSSQL, etc.)",
-      "Query Builder & Editor: Intuitive interface for composing complex SQL queries with syntax highlighting",
-      "Query Saving & History: Save frequently used queries and maintain execution history for auditing",
-      "API-Driven: RESTful API endpoints for all major operations (CRUD for queries, result fetching, user management)",
-      "User Authentication: Secure endpoints with JWT authentication and permission control",
-      "Result Formatting: Export query results in multiple formats (JSON, CSV, etc.)",
-      "Collaboration Tools: Share queries and results with team members",
-      "Error Handling & Logging: Detailed error messages and server-side logging for troubleshooting",
-      "Extensible Architecture: Modular design for easy integration with other tools and services"
+      "Natural Language to SQL: Converts user prompts into executable SQL queries using LLM-powered NL2SQL conversion",
+      "Multi-Database Connectivity: Connect to hosted databases (MySQL, PostgreSQL, MSSQL) via connection strings",
+      "File Upload Support: Upload CSV or PDF files for automatic schema detection and querying",
+      "Intelligent Middleware Routing: Classifies requests and routes to specialized chatbot agents (general, CSV, database, RAG)",
+      "Conversational Chatbot Interface: User-friendly chat interface for database interaction without SQL knowledge",
+      "Dynamic Schema Detection: Automatically understands database structure from connections or uploaded files",
+      "RAG Integration: Retrieval-Augmented Generation for context-aware query responses with vector stores",
+      "Read-Only Operations: Supports SELECT queries only for secure data retrieval",
+      "Multi-Format Results: Export query results in tables, charts, JSON, and CSV formats",
+      "JWT Authentication: Secure user signup and login for session management"
     ],
     techStack: {
-      runtime: "Node.js (v14+) for scalable backend execution",
-      framework: "Express.js for RESTful API endpoints and routing",
+      backend: "FastAPI (Python) for high-performance RESTful API endpoints",
+      frontend: "React with Bits UI library for clean and responsive user interface",
+      ai: "LLM integration for NL2SQL conversion and context understanding",
       databases: "Multi-database support: MySQL, PostgreSQL, MSSQL with unified query interface",
-      authentication: "JWT (JSON Web Tokens) for secure user authentication and session management",
-      export: "Multiple result formats (JSON, CSV) for data portability",
-      optional: "Docker for containerized deployment; Redis for caching and query acceleration"
+      rag: "RAG (Retrieval-Augmented Generation) with vector stores for semantic search",
+      authentication: "JWT (JSON Web Tokens) for secure user authentication",
+      services: "Modular architecture with agents, chatbots, schema builders, output parsers, and query executors",
+      export: "Multiple result formats (tables, charts, JSON, CSV) for data visualization"
     },
-    challenges: "Building a unified query interface that works across multiple database systems with different SQL dialects, implementing secure query execution to prevent SQL injection, managing query history and result caching efficiently, and designing a collaborative system for sharing queries across teams.",
-    learnings: "Gained deep expertise in database abstraction layers, SQL dialect differences, API security best practices, query optimization strategies, and building extensible architectures for multi-tenant systems.",
+    challenges: "Building a unified NL2SQL system that accurately interprets natural language across different database schemas, implementing middleware to intelligently route requests to appropriate chatbot agents, handling both hosted database connections and file uploads with automatic schema detection, integrating RAG for context-aware responses, and restricting operations to read-only SELECT queries while maintaining security against SQL injection.",
+    learnings: "Gained expertise in NL2SQL conversion techniques, LLM integration for database querying, building modular AI agent systems, implementing RAG with vector stores, database abstraction across multiple SQL dialects, middleware-based request routing, and designing conversational interfaces for technical operations.",
     images: [
       {
         url: "/images/queryiq-dashboard.jpg",
-        alt: "QueryIQ dashboard interface",
-        caption: "Main dashboard with query editor and saved queries"
+        alt: "QueryIQ chatbot interface",
+        caption: "Conversational chatbot interface for natural language queries"
       },
       {
         url: "/images/queryAILanding.jpg",
-        alt: "QueryIQ API endpoints",
-        caption: "landing page"
+        alt: "QueryIQ landing page",
+        caption: "Landing page"
       },
       {
         url: "/images/queryiq-upload.jpg",
-        alt: "Query execution results",
-        caption: "Uploading of pdf or csv files"
+        alt: "File upload interface",
+        caption: "Upload CSV or PDF files for querying"
       }
     ]
   }
 }
+
 ,
 "das-promotion-home-nursing": {
   topic: "project",
