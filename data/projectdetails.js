@@ -234,7 +234,7 @@ const projectDetails = {
   duration: "2025",
   status: "Completed",
   gradient: "gradient-blue-purple",
-  liveUrl: "",
+  liveUrl: "https://query-iq-seven.vercel.app/",
   githubUrl: "https://github.com/NishantMoolya/QueryIQ",
   documentation: {
     overview: "QueryIQ is an advanced platform for managing, optimizing, and executing database queries. It provides a flexible API for building, saving, sharing, and running complex SQL queries with support for multiple database backends. Designed for developers, data analysts, and organizations who need a centralized solution for query lifecycle management, analytics, and collaboration.",
