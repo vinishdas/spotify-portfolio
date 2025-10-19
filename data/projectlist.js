@@ -34,7 +34,15 @@
   subtitle: "Next.js, Tailwind CSS, SEO, Responsive",
   gradient: "gradient-green-blue",
   category: "Frontend",
+},
+{
+  id: "queryiq",
+  title: "QueryIQ",
+  subtitle: "Node.js, SQL, REST API, Multi-DB, JWT, Query Management",
+  gradient: "gradient-blue-purple",
+  category: "Backend",
 }
+
 
 
 

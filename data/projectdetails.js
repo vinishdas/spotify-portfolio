@@ -225,6 +225,60 @@ const projectDetails = {
     ]
   }
 },
+"queryiq": {
+  topic: "project",
+  title: "QueryIQ",
+  description: "An advanced platform for managing, optimizing, and executing database queries with multi-database support and collaborative features",
+  type: "Backend API Platform",
+  technologies: ["Node.js", "Express.js", "MySQL", "PostgreSQL", "MSSQL", "JWT", "REST API", "SQL"],
+  duration: "2025",
+  status: "Completed",
+  gradient: "gradient-blue-purple",
+  liveUrl: "",
+  githubUrl: "https://github.com/NishantMoolya/QueryIQ",
+  documentation: {
+    overview: "QueryIQ is an advanced platform for managing, optimizing, and executing database queries. It provides a flexible API for building, saving, sharing, and running complex SQL queries with support for multiple database backends. Designed for developers, data analysts, and organizations who need a centralized solution for query lifecycle management, analytics, and collaboration.",
+    keyFeatures: [
+      "Multi-Database Support: Connect to various popular databases (MySQL, PostgreSQL, MSSQL, etc.)",
+      "Query Builder & Editor: Intuitive interface for composing complex SQL queries with syntax highlighting",
+      "Query Saving & History: Save frequently used queries and maintain execution history for auditing",
+      "API-Driven: RESTful API endpoints for all major operations (CRUD for queries, result fetching, user management)",
+      "User Authentication: Secure endpoints with JWT authentication and permission control",
+      "Result Formatting: Export query results in multiple formats (JSON, CSV, etc.)",
+      "Collaboration Tools: Share queries and results with team members",
+      "Error Handling & Logging: Detailed error messages and server-side logging for troubleshooting",
+      "Extensible Architecture: Modular design for easy integration with other tools and services"
+    ],
+    techStack: {
+      runtime: "Node.js (v14+) for scalable backend execution",
+      framework: "Express.js for RESTful API endpoints and routing",
+      databases: "Multi-database support: MySQL, PostgreSQL, MSSQL with unified query interface",
+      authentication: "JWT (JSON Web Tokens) for secure user authentication and session management",
+      export: "Multiple result formats (JSON, CSV) for data portability",
+      optional: "Docker for containerized deployment; Redis for caching and query acceleration"
+    },
+    challenges: "Building a unified query interface that works across multiple database systems with different SQL dialects, implementing secure query execution to prevent SQL injection, managing query history and result caching efficiently, and designing a collaborative system for sharing queries across teams.",
+    learnings: "Gained deep expertise in database abstraction layers, SQL dialect differences, API security best practices, query optimization strategies, and building extensible architectures for multi-tenant systems.",
+    images: [
+      {
+        url: "/images/queryiq-dashboard.jpg",
+        alt: "QueryIQ dashboard interface",
+        caption: "Main dashboard with query editor and saved queries"
+      },
+      {
+        url: "/images/queryAILanding.jpg",
+        alt: "QueryIQ API endpoints",
+        caption: "landing page"
+      },
+      {
+        url: "/images/queryiq-upload.jpg",
+        alt: "Query execution results",
+        caption: "Uploading of pdf or csv files"
+      }
+    ]
+  }
+}
+,
 "das-promotion-home-nursing": {
   topic: "project",
   title: "Das Promotion Home Nursing – Frontend",
